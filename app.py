@@ -60,9 +60,10 @@ def cookies():
 
 @app.route("/")
 def index():
-    if "username" in session:
-        return "Logged in as: {username}".format(username=session["username"])
-    return "Not logged in."
+    # if "username" in session:
+    #     return "Logged in as: {username}".format(username=session["username"])
+    return render_template("index.html")
+
 
 @app.route("/login", methods = ["GET", "POST"])
 def login():

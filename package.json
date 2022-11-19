@@ -1,0 +1,19 @@
+{
+  "name": "clogs",
+  "version": "1.0.0",
+  "description": "A tool help people to learn English",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiaorenyu/clogs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiaorenyu/clogs/issues"
+  },
+  "homepage": "https://github.com/jiaorenyu/clogs#readme"
+}
